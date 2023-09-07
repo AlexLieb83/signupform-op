@@ -4,13 +4,44 @@
   box-sizing: border-box;
 }
 
-img {
-  width: 40%;
+body {
+  display: flex;
+}
+
+.logo-container {
+  width: 30vw;
+  height: 100vh;
+}
+
+.odin-container {
+  width: 30vw;
+  height: 20vh;
+  background-color: black;
+  opacity: 0.7;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.odin-logo-text {
+  font-family: "Comfortaa", sans-serif;
+  color: white;
+  font-size: 3rem;
+}
+
+#odin-logo {
+  width: 30%;
+  height: 100%;
+
+  /* object-fit: cover; */
+}
+
+/* img {
+  max-width: 40vw;
   height: 100vh;
   object-fit: cover;
-
-  position: relative;
-}
+} */
 
 /* .logo-container {
   position: absolute;
