@@ -8,6 +8,10 @@ body {
   display: flex;
 }
 
+button {
+  background-color: #596d48;
+}
+
 .logo-container {
   width: 30vw;
   height: 100vh;
