@@ -37,6 +37,24 @@ body {
   /* object-fit: cover; */
 }
 
+.text-container {
+  background-color: pink;
+
+  padding: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro-text {
+  background-color: red;
+}
+
+.form-container {
+  background-color: blue;
+}
+
 /* img {
   max-width: 40vw;
   height: 100vh;
