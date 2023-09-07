@@ -57,6 +57,7 @@ button {
 
 .form-container {
   background-color: blue;
+  border: 2px #e5e7eb solid;
 }
 
 /* img {
